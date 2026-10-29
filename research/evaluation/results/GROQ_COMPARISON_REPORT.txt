@@ -1,0 +1,44 @@
+======================================================================
+GROQ BASELINE VS MEDIATOR-LLM COMPARISON REPORT
+======================================================================
+
+EXPERIMENT CONFIGURATION
+----------------------------------------------------------------------
+Dataset: research\evaluation\trial_matching_evaluation.csv
+Groq Model: openai/gpt-oss-120b
+Results Directory: D:\mediator-llm\research\evaluation\results
+
+DATASET STATISTICS
+----------------------------------------------------------------------
+Total patient-trial pairs: 50
+Valid comparisons: 48
+
+OVERALL ELIGIBILITY AGREEMENT
+----------------------------------------------------------------------
+Same overall decision: 26
+Different overall decision: 22
+Overall agreement rate: 54.17%
+Groq errors: 2
+Mediator errors: 0
+
+CRITERION-LEVEL AGREEMENT
+----------------------------------------------------------------------
+Total criterion comparisons: 935
+Criterion agreements: 696
+Criterion disagreements: 239
+Both UNKNOWN: 658
+Criterion agreement rate: 74.44%
+
+GENERATED FILES
+----------------------------------------------------------------------
+1. Groq results: D:\mediator-llm\research\evaluation\results\groq_results.json
+2. Mediator results: D:\mediator-llm\research\evaluation\results\mediator_results.json
+3. Comparison CSV: D:\mediator-llm\research\evaluation\results\groq_vs_mediator_comparison.csv
+4. Summary statistics: D:\mediator-llm\research\evaluation\results\groq_vs_mediator_summary.json
+5. Figure 4: D:\mediator-llm\research\evaluation\results\figure_4_groq_vs_mediator.png
+6. Figure 4b: D:\mediator-llm\research\evaluation\results\figure_4b_overall_agreement.png
+7. This report: D:\mediator-llm\research\evaluation\results\GROQ_COMPARISON_REPORT.txt
+
+======================================================================
+END OF REPORT
+======================================================================

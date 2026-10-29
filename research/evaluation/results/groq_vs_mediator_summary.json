@@ -1,0 +1,14 @@
+{
+  "n_pairs": 50,
+  "valid_pairs": 48,
+  "overall_agreement_rate": 54.166666666666664,
+  "same_overall": 26,
+  "different_overall": 22,
+  "groq_errors": 2,
+  "mediator_errors": 0,
+  "criterion_comparisons": 935,
+  "criterion_agreements": 696,
+  "criterion_disagreements": 239,
+  "criterion_agreement_rate": 74.43850267379679,
+  "both_unknown": 658
+}
